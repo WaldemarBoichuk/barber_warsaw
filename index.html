@@ -36,6 +36,9 @@
                 </ul>
             </nav>
         </header>
+
+        <!-- INFO ICON -->
+
         <main class="container">
               <h1 class="visually-hidden">Barbershop Warsaw</h1>
         <section class="features">
@@ -65,6 +68,9 @@
             </ul>
         </section>
         </main>
+
+        <!-- NEWS AND PHOTO GALLERY ICON  -->
+
         <section class="news">
             <h2>News</h2>
             <ul class="newslist">
@@ -73,9 +79,112 @@
                         Nulla nec ornare libero, sit amet volutpat eros.
                         Suspendisse elementum, magna at gravida volutpat, quam tellus maximus dui,
                         in iaculis lacus risus molestie </p>
-                    <time datetime="2018-01-31">31</time>
+                    <time datetime="2018-01-31">31 January</time>
                 </li>
             </ul>
+            <a class="button" href="news.html">All News</a>
+        </section>
+        <section class="gallery">
+            <h2>Photo gallery</h2>
+            <figure class="gallery-contrent">
+                <a href="#"><img src="img/studio.jpg" width="286"
+                                 height="164" alt="Interier"></a>
+
+            </figure>
+            <span class="button gallery-button gallery-button-back"
+                  >Back</span>
+            <span class="button gallery-button gallery-button-next"
+            >Next</span>
+        </section>
+
+        <!-- CONTACT INFO AND FOOTER  -->
+
+        <section class="contacts">
+            <h2>Contact Info</h2>
+            <p>
+                Barber Warsaw<br>
+                Adres: c.Warsaw, wojciechowskiego 54 02-456<br>
+                Tel: +48 666  666 666
+            </p>
+            <p>
+                Open:
+                Pn-Pt: 10:00 - 21:00
+                Sb-Nd: 10:00 - 14:00
+            </p>
+            <a class="button contact-button" href="map.html">Where we are</a>
+            <a class="button contact-button" href="contact.html">Write to us</a>
+        </section>
+
+        <section class="appointment">
+            <h2>Reservate</h2>
+            <p class="appointment-info">Write your date and time reservation</p>
+            <form class="appointment-form" action="https://echo.htmlacademy.ru" method="posd">
+                <p class="appointment-item">
+                Date
+                <input type="text" name="name" value="" placeholder="09.01.2018">
+            </p>
+                <p class="appointment-item">
+                    Time
+                    <input type="text" name="time" value="" placeholder="10:00">
+                </p>
+
+                <p class="appointment-item">
+                    Your Name
+                    <input type="text" name="name" value="" placeholder="Wlodek">
+                </p>
+                <p class="appointment-item">
+                    Tel
+                    <input type="tel" name="phone" value="" placeholder="+48-694-465-082">
+                </p>
+                <button class="button" type="submit">Send</button>
+
+            </form>
+        </section>
+    </main>
+        <footer class="main-footer">
+            <p class="footer-contacts">
+                Barber Warsaw <br>
+                Adres: Wojciechowskiego 54 02-456
+                <a href="map.html">Where we are?</a><br>
+                Tel: +48 694-465-082
+            </p>
+            <div class="footer-social">
+                <b>Social</b>
+                <ul>
+                    <li><a class="social-button" href="#">Vk</a></li>
+                    <li><a class="social-button" href="#">Facebook</a></li>
+                    <li><a class="social-button" href="#">Instagram</a></li>
+                </ul>
+
+            </div>
+            <p class="footer-copyright">
+                <b>By:</b>
+                <a class="button" href="https://wladimirboichuk.com">wladimirboichuk.com</a>
+            </p>
+        </footer>
+
+        <section class="midal midal-login">
+            <h2>Your admin panel</h2>
+            <p>Write yout login and password.</p>
+            <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+                <p>
+                    <input class="login-icon-user" type="text" name="login" placeholder="Login">
+                </p>
+                <p>
+                    <input class="login-icon-password" type="password" name="Password" placeholder="Password">
+                </p>
+                <p class="login-password-info">
+                <input type="checkbox" name="remember" class="visually-hidden">
+                Remember me
+                <a class="restore" href="#">Restore password</a>
+            </p>
+                <button class="button" type="submit">Enter</button>
+            </form>
+            <span class="model-close">x</span>
+        </section>
+        <section class="modal modal-map">
+            <h2 class="visually-hidden">Where we are</h2>
+            <span class="model-close">x</span>
         </section>
 
         <!-- Add your site or application content here -->
