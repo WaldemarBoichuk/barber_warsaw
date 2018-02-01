@@ -170,23 +170,30 @@
             <p>Write yout login and password.</p>
             <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
                 <p>
-                    <input class="login-icon-user" type="text" name="login" placeholder="Login">
+                    <label class="visually-hidden" for="user-login">"login</label>
+                    <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Login">
                 </p>
                 <p>
-                    <input class="login-icon-password" type="password" name="Password" placeholder="Password">
+                    <label class="visually-hidden" for="user-password">"Password</label>
+                    <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Password">
                 </p>
                 <p class="login-password-info">
+                    <label class="login-chekbox">
                 <input type="checkbox" name="remember" class="visually-hidden">
                 Remember me
+                    </label>
                 <a class="restore" href="#">Restore password</a>
             </p>
                 <button class="button" type="submit">Enter</button>
             </form>
-            <span class="model-close">x</span>
+            <button class="model-close" type="button">Close</button>
         </section>
         <section class="modal modal-map">
             <h2 class="visually-hidden">Where we are</h2>
-            <span class="model-close">x</span>
+            <p>
+                <img src="img/map.jpg" widht="760" height="560" alt="Office adres Wojciehcowskiego 54 02-495">
+            </p>
+            <button class="model-close" type="button">Close</button>
         </section>
 
         <!-- Add your site or application content here -->
