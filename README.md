@@ -1,2 +1,2 @@
-# **Barbershop HTML-Free** #
+# Barbershop HTML-Free #
 ## *Free Barbershop Html* ##
